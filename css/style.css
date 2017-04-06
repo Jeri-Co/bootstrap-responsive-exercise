@@ -7,52 +7,59 @@
 
 .circles {
     text-align: center;
-    border: solid 1px;
+    border: solid 1px black;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     margin-right: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.8em;
+    color: #ffffff;
 }
 
 #circletext1 {
     position: absolute;
-    left: 28%;
-    top: 38%;
+    left: 18%;
+    top: 34%;
 }
 
 #circle1 {
     position: relative;
+    background-color: #DB5461;
 }
 
 #circletext2 {
     position: absolute;
-    left: 28%;
-    top: 38%;
+    left: 9%;
+    top: 34%;
 }
 
 #circle2 {
     position: relative;
+    background-color: #FCD036;
 }
 
 #circletext3 {
     position: absolute;
-    left: 25%;
-    top: 38%;
+    left: 9%;
+    top: 34%;
 }
 
 #circle3 {
     position: relative;
+    background-color: #49A68F;
 }
 
 #circletext4 {
     position: absolute;
-    left: 37%;
-    top: 38%;
+    left: 26%;
+    top: 34%;
 }
 
 
 #circle4 {
     position: relative;
+    background-color: #0ABFBC;
 }
 
 @media screen and (max-width: 480px) {
