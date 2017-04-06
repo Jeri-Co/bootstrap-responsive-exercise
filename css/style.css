@@ -1,4 +1,5 @@
 #navlist {
+
 }
 
 #headers {
@@ -6,25 +7,24 @@
 }
 
 .circles {
-    text-align: center;
-    border: solid 1px black;
+    border: 1px solid black;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin: 20px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.8em;
     color: #ffffff;
+    position: relative;
 }
 
 #circletext1 {
     position: absolute;
-    left: 18%;
+    left: 17%;
     top: 34%;
 }
 
 #circle1 {
-    position: relative;
     background-color: #DB5461;
 }
 
@@ -35,7 +35,6 @@
 }
 
 #circle2 {
-    position: relative;
     background-color: #FCD036;
 }
 
@@ -46,7 +45,6 @@
 }
 
 #circle3 {
-    position: relative;
     background-color: #49A68F;
 }
 
@@ -58,12 +56,11 @@
 
 
 #circle4 {
-    position: relative;
     background-color: #0ABFBC;
 }
 
-@media screen and (max-width: 480px) {
-    .circles {
-        margin-right: ;
-    }
-}
+/*!*@media screen and (max-width: 480px) {*!*/
+    /*!*.circles {*!*/
+        /*!*margin-right: ;*!*/
+    /*!*}*!*/
+/*}*/
