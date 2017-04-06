@@ -11,6 +11,48 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    margin-right: 20px;
+}
+
+#circletext1 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#circle1 {
+    position: relative;
+}
+
+#circletext2 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#circle2 {
+    position: relative;
+}
+
+#circletext3 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#circle3 {
+    position: relative;
+}
+
+#circletext4 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+
+#circle4 {
+    position: relative;
 }
 
 @media screen and (max-width: 480px) {
