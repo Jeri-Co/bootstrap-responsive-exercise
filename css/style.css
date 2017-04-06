@@ -59,8 +59,6 @@
     background-color: #0ABFBC;
 }
 
-/*!*@media screen and (max-width: 480px) {*!*/
-    /*!*.circles {*!*/
-        /*!*margin-right: ;*!*/
-    /*!*}*!*/
-/*}*/
+.frontpic {
+    margin: 1% auto;
+}
